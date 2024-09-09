@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="background" style = "height: 1080px">
+ <div id="changeColor1" class ="red-bg" onclick="swapColor1()">Color1</div>
+ <div id="changeColor2" class ="blue-bg" onclick="swapColor2()">Color2</div>
+ <div id="changeColor3" class ="green-bg" onclick="SwapColor3()">Color3</div>
+ <div id="empty1"  onclick ="setColor1()"></div> 
+ <div id="empty2" onclick ="setColor2()"></div>
+   <button onclick="bgColor1()" id="click2change">Click to change background color</button>  
+  </div>
+
+   <script>
+      //let bgColor = document.getElementbyClassname();
+      var colors;
+      console.log(changeColor1,changeColor2,changeColor3);
+      // swap color is to grab colors
+      function swapColor1() {
+        colors = document.getElementById("changeColor1").className;
+        console.log(colors);
+      }
+      function swapColor2() {
+        colors = document.getElementById("changeColor2").className;
+        console.log(colors);
+      }
+      function SwapColor3(){
+        colors = document.getElementById("changeColor3").className;
+        console.log(colors);
+        // Setcolor is to set color for div
+      }
+      function setColor1(){
+        document.getElementById("empty1").setAttribute('class', colors);
+        console.log(colors);
+      } 
+      function setColor2(){
+        document.getElementById("empty2").setAttribute('class', colors);
+        console.log(colors);
+      }
+      // background is for coloring background
+      function bgColor1(){
+        document.getElementById('background').setAttribute('class', colors)
+        console.log(colors);
+      }
+    </script>
+   
+  
+ 
+
+</body>
+</html>

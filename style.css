@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+}
+ 
+ #changeColor1{
+       
+        font-family: "poppins", sans-serif;
+        text-align: center;
+        font-size: 2.1em;
+        width: 290px;
+        height: 45px;
+        margin-top:2px;
+        margin-left:10px;
+        
+        border-radius: 18px;
+        cursor: pointer;
+        border: solid, rgb(250, 155, 155);
+        background-color:rgb(252, 217, 217);
+    }
+        
+
+    #changeColor2{
+       
+        font-family: "poppins", sans-serif;
+        text-align: center;
+        font-size: 2.1em;
+        width: 290px;
+        height: 45px;
+        margin: 2.1px;
+        margin-left:10px;
+        border-radius: 18px;
+        cursor: pointer;
+        border: solid, rgb(164, 148, 255);
+        background-color:rgb(208, 211, 253);
+        
+    }
+    #changeColor3{
+       
+        font-family: "poppins", sans-serif;
+        text-align: center;
+        font-size: 2.1em;
+        width: 290px;
+        height: 45px;
+        margin: 2.1px;
+        margin-left:10px;
+        border-radius: 18px;
+        cursor: pointer;
+        border: solid, rgb(103, 216, 132);
+        background-color:rgb(188, 255, 214);
+        
+     }  /*here is for swapping colors */
+    .red-bg{
+     background:rgb(252, 217, 217);
+      
+    }
+    .blue-bg{
+     background:rgb(208, 211, 253);
+       
+    }
+    .green-bg{
+    background:rgb(188, 255, 214);
+    
+    }
+      
+     #empty1{ 
+        width: 290px; 
+        height: 45px; 
+        margin-left:10px;
+        margin-top:20px;
+        border: 1px solid black; 
+        cursor: pointer;
+      } 
+      #empty2{ 
+        width: 290px; 
+        height: 45px; 
+        margin-left:10px;
+        border: 1px solid black; 
+        cursor: pointer;
+      } 
+      #click2change{
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 210px; 
+        height: 50px; 
+        background: linear-gradient( to right, rgb(252, 217, 217),rgb(208, 211, 253),rgb(188, 255, 214));
+        border: 3px solid black; 
+        border-radius:2px;
+        cursor: pointer;     
+       
+
+      }
+      
+     
+     
+
+   
